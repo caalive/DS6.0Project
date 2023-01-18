@@ -1,0 +1,104 @@
+[2022-03-11 20:51:44,783] [INFO] - peoplecounturi.main (peoplecounturi.py:101) - init GObject.threads_init success
+[2022-03-11 20:51:44,788] [INFO] - gstpipeline.__init__ (gstpipeline.py:135) - Creating Pipeline
+[2022-03-11 20:51:44,796] [INFO] - gstpipeline.make_element (gstpipeline.py:166) - Creating nvstreammux
+[2022-03-11 20:51:44,852] [INFO] - gstpipeline.__create_uri_bin (gstpipeline.py:183) - Creating source_bin 0
+[2022-03-11 20:51:44,853] [INFO] - gstpipeline.__create_source_bin (gstpipeline.py:202) - Creating source bin:source-bin-00
+[2022-03-11 20:51:44,869] [INFO] - gstpipeline.__create_uri_bin (gstpipeline.py:183) - Creating source_bin 1
+[2022-03-11 20:51:44,869] [INFO] - gstpipeline.__create_source_bin (gstpipeline.py:202) - Creating source bin:source-bin-01
+[2022-03-11 20:51:44,873] [INFO] - gstpipeline.make_element (gstpipeline.py:166) - Creating queue
+[2022-03-11 20:51:44,878] [INFO] - gstpipeline.make_element (gstpipeline.py:166) - Creating queue
+[2022-03-11 20:51:44,879] [INFO] - gstpipeline.make_element (gstpipeline.py:166) - Creating queue
+[2022-03-11 20:51:44,880] [INFO] - gstpipeline.make_element (gstpipeline.py:166) - Creating queue
+[2022-03-11 20:51:44,880] [INFO] - gstpipeline.make_element (gstpipeline.py:166) - Creating queue
+[2022-03-11 20:51:44,881] [INFO] - gstpipeline.make_element (gstpipeline.py:166) - Creating queue
+[2022-03-11 20:51:44,882] [INFO] - gstpipeline.make_element (gstpipeline.py:166) - Creating queue
+[2022-03-11 20:51:44,882] [INFO] - gstpipeline.make_element (gstpipeline.py:166) - Creating queue
+[2022-03-11 20:51:44,883] [INFO] - gstpipeline.make_element (gstpipeline.py:166) - Creating queue
+[2022-03-11 20:51:44,884] [INFO] - gstpipeline.make_element (gstpipeline.py:166) - Creating queue
+[2022-03-11 20:51:44,884] [INFO] - gstpipeline.make_element (gstpipeline.py:166) - Creating nvinfer
+[2022-03-11 20:51:44,926] [INFO] - gstpipeline.make_element (gstpipeline.py:166) - Creating nvtracker
+[2022-03-11 20:51:44,931] [INFO] - gstpipeline.make_element (gstpipeline.py:166) - Creating nvmultistreamtiler
+[2022-03-11 20:51:44,940] [INFO] - gstpipeline.make_element (gstpipeline.py:166) - Creating nvvideoconvert
+[2022-03-11 20:51:44,952] [INFO] - gstpipeline.make_element (gstpipeline.py:166) - Creating nvvideoconvert
+[2022-03-11 20:51:44,953] [INFO] - gstpipeline.make_element (gstpipeline.py:166) - Creating capsfilter
+[2022-03-11 20:51:44,955] [INFO] - gstpipeline.handel_encode (gstpipeline.py:246) - Creating H264 Encoder
+[2022-03-11 20:51:44,958] [INFO] - gstpipeline.make_element (gstpipeline.py:166) - Creating nvv4l2h264enc
+[2022-03-11 20:51:45,201] [INFO] - gstpipeline.handel_encode (gstpipeline.py:261) - Creating H264 rtppay
+[2022-03-11 20:51:45,203] [INFO] - gstpipeline.make_element (gstpipeline.py:166) - Creating rtph264pay
+[2022-03-11 20:51:45,211] [INFO] - gstpipeline.make_element (gstpipeline.py:166) - Creating nvdsosd
+[2022-03-11 20:51:45,224] [INFO] - gstpipeline.make_element (gstpipeline.py:166) - Creating udpsink
+[2022-03-11 20:51:45,235] [INFO] - peoplecounturi.main (peoplecounturi.py:155) - Atleast one of the sources is live
+[2022-03-11 20:51:45,239] [WARNING] - peoplecounturi.main (peoplecounturi.py:167) - Overriding infer-config batch-size 4 with number of sources 2
+[2022-03-11 20:51:45,242] [INFO] - peoplecounturi.main (peoplecounturi.py:172) - Linking elements in mygst pipeline
+[2022-03-11 20:51:45,265] [INFO] - peoplecounturi.main (peoplecounturi.py:198) - Now playing...
+[2022-03-11 20:51:45,266] [INFO] - peoplecounturi.main (peoplecounturi.py:200) - URI source --> 1:rtsp://admin:zgzn123456@192.168.2.90
+[2022-03-11 20:51:45,266] [INFO] - peoplecounturi.main (peoplecounturi.py:200) - URI source --> 2:rtsp://admin:zgzn123456@192.168.2.91
+[2022-03-11 20:51:45,275] [INFO] - peoplecounturi.main (peoplecounturi.py:211) - DeepStream: Launched RTSP Streaming at rtsp://localhost:8554/out
+[2022-03-11 20:51:45,275] [INFO] - peoplecounturi.main (peoplecounturi.py:212) - Starting pipeline
+[2022-03-11 20:51:50,933] [INFO] - gstpipeline.__decodebin_child_added (gstpipeline.py:236) - Decodebin child added source
+[2022-03-11 20:51:50,936] [INFO] - gstpipeline.__decodebin_child_added (gstpipeline.py:236) - Decodebin child added source
+[2022-03-11 20:51:51,319] [INFO] - gstpipeline.__decodebin_child_added (gstpipeline.py:236) - Decodebin child added decodebin0
+[2022-03-11 20:51:51,320] [INFO] - gstpipeline.__decodebin_child_added (gstpipeline.py:236) - Decodebin child added decodebin1
+[2022-03-11 20:51:51,343] [INFO] - gstpipeline.__decodebin_child_added (gstpipeline.py:236) - Decodebin child added rtph264depay0
+[2022-03-11 20:51:51,343] [INFO] - gstpipeline.__decodebin_child_added (gstpipeline.py:236) - Decodebin child added rtph264depay1
+[2022-03-11 20:51:51,352] [INFO] - gstpipeline.__decodebin_child_added (gstpipeline.py:236) - Decodebin child added h264parse0
+[2022-03-11 20:51:51,353] [INFO] - gstpipeline.__decodebin_child_added (gstpipeline.py:236) - Decodebin child added h264parse1
+[2022-03-11 20:51:51,355] [INFO] - gstpipeline.__decodebin_child_added (gstpipeline.py:236) - Decodebin child added capsfilter0
+[2022-03-11 20:51:51,356] [INFO] - gstpipeline.__decodebin_child_added (gstpipeline.py:236) - Decodebin child added capsfilter1
+[2022-03-11 20:51:51,364] [INFO] - gstpipeline.__decodebin_child_added (gstpipeline.py:236) - Decodebin child added nvv4l2decoder0
+[2022-03-11 20:51:51,365] [INFO] - gstpipeline.__decodebin_child_added (gstpipeline.py:236) - Decodebin child added nvv4l2decoder1
+[2022-03-11 20:51:51,597] [INFO] - gstpipeline.__cb_newpad (gstpipeline.py:220) - In cb_newpad
+[2022-03-11 20:51:51,602] [INFO] - gstpipeline.__cb_newpad (gstpipeline.py:220) - In cb_newpad
+[2022-03-11 20:54:01,266] [INFO] - peoplecounturi.main (peoplecounturi.py:219) - Exiting app
+[2022-03-11 20:55:04,002] [INFO] - peoplecounturi.main (peoplecounturi.py:101) - init GObject.threads_init success
+[2022-03-11 20:55:04,007] [INFO] - gstpipeline.__init__ (gstpipeline.py:135) - Creating Pipeline
+[2022-03-11 20:55:04,013] [INFO] - gstpipeline.make_element (gstpipeline.py:166) - Creating nvstreammux
+[2022-03-11 20:55:04,061] [INFO] - gstpipeline.__create_uri_bin (gstpipeline.py:183) - Creating source_bin 0
+[2022-03-11 20:55:04,062] [INFO] - gstpipeline.__create_source_bin (gstpipeline.py:202) - Creating source bin:source-bin-00
+[2022-03-11 20:55:04,073] [INFO] - gstpipeline.__create_uri_bin (gstpipeline.py:183) - Creating source_bin 1
+[2022-03-11 20:55:04,074] [INFO] - gstpipeline.__create_source_bin (gstpipeline.py:202) - Creating source bin:source-bin-01
+[2022-03-11 20:55:04,076] [INFO] - gstpipeline.make_element (gstpipeline.py:166) - Creating queue
+[2022-03-11 20:55:04,080] [INFO] - gstpipeline.make_element (gstpipeline.py:166) - Creating queue
+[2022-03-11 20:55:04,081] [INFO] - gstpipeline.make_element (gstpipeline.py:166) - Creating queue
+[2022-03-11 20:55:04,082] [INFO] - gstpipeline.make_element (gstpipeline.py:166) - Creating queue
+[2022-03-11 20:55:04,082] [INFO] - gstpipeline.make_element (gstpipeline.py:166) - Creating queue
+[2022-03-11 20:55:04,083] [INFO] - gstpipeline.make_element (gstpipeline.py:166) - Creating queue
+[2022-03-11 20:55:04,083] [INFO] - gstpipeline.make_element (gstpipeline.py:166) - Creating queue
+[2022-03-11 20:55:04,084] [INFO] - gstpipeline.make_element (gstpipeline.py:166) - Creating queue
+[2022-03-11 20:55:04,084] [INFO] - gstpipeline.make_element (gstpipeline.py:166) - Creating queue
+[2022-03-11 20:55:04,085] [INFO] - gstpipeline.make_element (gstpipeline.py:166) - Creating queue
+[2022-03-11 20:55:04,085] [INFO] - gstpipeline.make_element (gstpipeline.py:166) - Creating nvinfer
+[2022-03-11 20:55:04,117] [INFO] - gstpipeline.make_element (gstpipeline.py:166) - Creating nvtracker
+[2022-03-11 20:55:04,121] [INFO] - gstpipeline.make_element (gstpipeline.py:166) - Creating nvmultistreamtiler
+[2022-03-11 20:55:04,125] [INFO] - gstpipeline.make_element (gstpipeline.py:166) - Creating nvvideoconvert
+[2022-03-11 20:55:04,128] [INFO] - gstpipeline.make_element (gstpipeline.py:166) - Creating nvvideoconvert
+[2022-03-11 20:55:04,128] [INFO] - gstpipeline.make_element (gstpipeline.py:166) - Creating capsfilter
+[2022-03-11 20:55:04,130] [INFO] - gstpipeline.handel_encode (gstpipeline.py:246) - Creating H264 Encoder
+[2022-03-11 20:55:04,130] [INFO] - gstpipeline.make_element (gstpipeline.py:166) - Creating nvv4l2h264enc
+[2022-03-11 20:55:04,303] [INFO] - gstpipeline.handel_encode (gstpipeline.py:261) - Creating H264 rtppay
+[2022-03-11 20:55:04,305] [INFO] - gstpipeline.make_element (gstpipeline.py:166) - Creating rtph264pay
+[2022-03-11 20:55:04,312] [INFO] - gstpipeline.make_element (gstpipeline.py:166) - Creating nvdsosd
+[2022-03-11 20:55:04,322] [INFO] - gstpipeline.make_element (gstpipeline.py:166) - Creating udpsink
+[2022-03-11 20:55:04,331] [INFO] - peoplecounturi.main (peoplecounturi.py:155) - Atleast one of the sources is live
+[2022-03-11 20:55:04,334] [WARNING] - peoplecounturi.main (peoplecounturi.py:167) - Overriding infer-config batch-size 4 with number of sources 2
+[2022-03-11 20:55:04,337] [INFO] - peoplecounturi.main (peoplecounturi.py:172) - Linking elements in mygst pipeline
+[2022-03-11 20:55:04,358] [INFO] - peoplecounturi.main (peoplecounturi.py:198) - Now playing...
+[2022-03-11 20:55:04,358] [INFO] - peoplecounturi.main (peoplecounturi.py:200) - URI source --> 1:rtsp://admin:zgzn123456@192.168.2.90
+[2022-03-11 20:55:04,358] [INFO] - peoplecounturi.main (peoplecounturi.py:200) - URI source --> 2:rtsp://admin:zgzn123456@192.168.2.91
+[2022-03-11 20:55:04,365] [INFO] - peoplecounturi.main (peoplecounturi.py:211) - DeepStream: Launched RTSP Streaming at rtsp://localhost:8554/out
+[2022-03-11 20:55:04,365] [INFO] - peoplecounturi.main (peoplecounturi.py:212) - Starting pipeline
+[2022-03-11 20:55:09,329] [INFO] - gstpipeline.__decodebin_child_added (gstpipeline.py:236) - Decodebin child added source
+[2022-03-11 20:55:09,331] [INFO] - gstpipeline.__decodebin_child_added (gstpipeline.py:236) - Decodebin child added source
+[2022-03-11 20:55:09,620] [INFO] - gstpipeline.__decodebin_child_added (gstpipeline.py:236) - Decodebin child added decodebin0
+[2022-03-11 20:55:09,636] [INFO] - gstpipeline.__decodebin_child_added (gstpipeline.py:236) - Decodebin child added rtph264depay0
+[2022-03-11 20:55:09,643] [INFO] - gstpipeline.__decodebin_child_added (gstpipeline.py:236) - Decodebin child added h264parse0
+[2022-03-11 20:55:09,645] [INFO] - gstpipeline.__decodebin_child_added (gstpipeline.py:236) - Decodebin child added capsfilter0
+[2022-03-11 20:55:09,654] [INFO] - gstpipeline.__decodebin_child_added (gstpipeline.py:236) - Decodebin child added nvv4l2decoder0
+[2022-03-11 20:55:09,708] [INFO] - gstpipeline.__decodebin_child_added (gstpipeline.py:236) - Decodebin child added decodebin1
+[2022-03-11 20:55:09,717] [INFO] - gstpipeline.__decodebin_child_added (gstpipeline.py:236) - Decodebin child added rtph264depay1
+[2022-03-11 20:55:09,720] [INFO] - gstpipeline.__decodebin_child_added (gstpipeline.py:236) - Decodebin child added h264parse1
+[2022-03-11 20:55:09,721] [INFO] - gstpipeline.__decodebin_child_added (gstpipeline.py:236) - Decodebin child added capsfilter1
+[2022-03-11 20:55:09,727] [INFO] - gstpipeline.__decodebin_child_added (gstpipeline.py:236) - Decodebin child added nvv4l2decoder1
+[2022-03-11 20:55:09,819] [INFO] - gstpipeline.__cb_newpad (gstpipeline.py:220) - In cb_newpad
+[2022-03-11 20:55:09,886] [INFO] - gstpipeline.__cb_newpad (gstpipeline.py:220) - In cb_newpad
+[2022-03-11 21:09:27,713] [INFO] - peoplecounturi.main (peoplecounturi.py:219) - Exiting app
